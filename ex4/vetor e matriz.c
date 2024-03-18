@@ -419,3 +419,30 @@ int numeros[3][5] = {{10,12,14,16,18},{0,9,8,6,5},{11,12,13,14,15}};
 ou
 int numeros[3][5];
 numeros = {{10,12,14,16,18},{0,9,8,6,5},{11,12,13,14,15}};
+
+/*Os elementos de uma matriz são acessados, atribuídos, lidos ou exibidos, elemento a elemento, referenciando a linha e a coluna que ocupam, respectivamente.
+
+Considere a matriz 3x5 (3 linhas x 5 colunas) de elementos do tipo inteiro, de nome mat, bem como os seguintes comandos, numerados de 1 a 15, tanto em Portugol Studio quanto em linguagem C:*/
+
+// Linguagem C
+mat[3][5];
+1 mat [0][0] = 1;
+2 mat [0][1] = 2;
+3 mat [0][2] = 3;
+4 mat [0][3] = 4;
+5 mat [0][4] = 5;
+6 mat [1][0] = 6;
+7 mat [1][1] = 7;
+8 mat [1][2] = 8;
+9 mat [1][3] = 9;
+10 mat [1][4] = 10;
+11 mat [2][0] = 11;
+12 mat [2][1] = 12;
+13 mat [2][2] = 13;
+14 mat [2][3] = 14;
+15 mat [3][3] = 15;
+
+/*O comando exibe no dispositivo de saída o elemento que ocupa a posição de linha=2 e coluna=1. Avaliando a matriz, o elemento é 12 (doze), como no código a seguir:*/
+
+// Linguagem C
+printf(“%d Linha 2, coluna1:“, mat[2][1]);
